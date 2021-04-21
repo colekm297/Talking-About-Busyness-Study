@@ -1,0 +1,72 @@
+Factor Analysis with confidence intervals using method = fa(r = TabBoth_QsDropped, nfactors = 2, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Factor Analysis using method =  pa
+Call: fa(r = TabBoth_QsDropped, nfactors = 2, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Standardized loadings (pattern matrix) based upon correlation matrix
+          PA1   PA2   h2   u2 com
+TAB_S_1  0.19  0.67 0.63 0.37 1.2
+TAB_S_2 -0.09  0.85 0.64 0.36 1.0
+TAB_S_3  0.20  0.69 0.69 0.31 1.2
+TAB_S_7  0.67  0.22 0.69 0.31 1.2
+TAB_S_8  0.76  0.11 0.69 0.31 1.0
+TAB_S_9  0.75  0.09 0.64 0.36 1.0
+TAB_C_1  0.23  0.58 0.54 0.46 1.3
+TAB_C_2 -0.14  0.83 0.57 0.43 1.1
+TAB_C_3  0.14  0.65 0.55 0.45 1.1
+TAB_C_7  0.83  0.02 0.71 0.29 1.0
+TAB_C_8  0.84 -0.04 0.66 0.34 1.0
+TAB_C_9  0.94 -0.10 0.78 0.22 1.0
+
+                       PA1  PA2
+SS loadings           4.33 3.48
+Proportion Var        0.36 0.29
+Cumulative Var        0.36 0.65
+Proportion Explained  0.55 0.45
+Cumulative Proportion 0.55 1.00
+
+ With factor correlations of 
+    PA1 PA2
+PA1 1.0 0.6
+PA2 0.6 1.0
+
+Mean item complexity =  1.1
+Test of the hypothesis that 2 factors are sufficient.
+
+The degrees of freedom for the null model are  66  and the objective function was  9.73 with Chi Square of  2794.06
+The degrees of freedom for the model are 43  and the objective function was  1.46 
+
+The root mean square of the residuals (RMSR) is  0.05 
+The df corrected root mean square of the residuals is  0.07 
+
+The harmonic number of observations is  291 with the empirical chi square  109.27  with prob <  1.1e-07 
+The total number of observations was  293  with Likelihood Chi Square =  415.93  with prob <  1.6e-62 
+
+Tucker Lewis Index of factoring reliability =  0.789
+RMSEA index =  0.172  and the 90 % confidence intervals are  0.157 0.188
+BIC =  171.69
+Fit based upon off diagonal values = 0.99
+Measures of factor score adequacy             
+                                                   PA1  PA2
+Correlation of (regression) scores with factors   0.97 0.95
+Multiple R square of scores with factors          0.94 0.90
+Minimum correlation of possible factor scores     0.87 0.80
+
+ Coefficients and bootstrapped confidence intervals 
+          low   PA1 upper   low   PA2 upper
+TAB_S_1  0.07  0.19  0.33  0.50  0.67  0.83
+TAB_S_2 -0.20 -0.09  0.03  0.78  0.85  0.92
+TAB_S_3  0.09  0.20  0.34  0.53  0.69  0.84
+TAB_S_7  0.51  0.67  0.82  0.10  0.22  0.39
+TAB_S_8  0.62  0.76  0.88  0.00  0.11  0.26
+TAB_S_9  0.55  0.75  0.90 -0.04  0.09  0.27
+TAB_C_1  0.11  0.23  0.37  0.43  0.58  0.71
+TAB_C_2 -0.26 -0.14  0.00  0.74  0.83  0.89
+TAB_C_3  0.02  0.14  0.29  0.48  0.65  0.80
+TAB_C_7  0.75  0.83  0.91 -0.07  0.02  0.12
+TAB_C_8  0.73  0.84  0.95 -0.19 -0.04  0.10
+TAB_C_9  0.89  0.94  0.98 -0.18 -0.10  0.00
+
+ Interfactor correlations and bootstrapped confidence intervals 
+        lower estimate upper
+PA1-PA2  0.49      0.6  0.68

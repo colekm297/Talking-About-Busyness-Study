@@ -1,0 +1,469 @@
+
+### Output from the EFA R Script ### 
+
+### 2 Factor EFA Coworker & Supervisor ###
+
+Factor Analysis with confidence intervals using method = fa(r = ITabBoth, nfactors = 2, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Factor Analysis using method =  pa
+Call: fa(r = ITabBoth, nfactors = 2, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Standardized loadings (pattern matrix) based upon correlation matrix
+          PA2   PA1   h2   u2 com
+TAB_S_1  0.64  0.22 0.63 0.37 1.2
+TAB_S_2  0.59  0.12 0.45 0.55 1.1
+TAB_S_3  0.63  0.25 0.66 0.34 1.3
+TAB_S_4  0.64 -0.07 0.36 0.64 1.0
+TAB_S_5  0.64 -0.15 0.31 0.69 1.1
+TAB_S_6  0.82 -0.08 0.60 0.40 1.0
+TAB_S_7  0.20  0.69 0.69 0.31 1.2
+TAB_S_8  0.15  0.73 0.68 0.32 1.1
+TAB_S_9  0.07  0.75 0.64 0.36 1.0
+TAB_C_1  0.45  0.33 0.49 0.51 1.8
+TAB_C_2  0.54  0.09 0.36 0.64 1.1
+TAB_C_3  0.54  0.23 0.50 0.50 1.3
+TAB_C_4  0.60 -0.04 0.34 0.66 1.0
+TAB_C_5  0.57 -0.04 0.30 0.70 1.0
+TAB_C_6  0.75 -0.06 0.51 0.49 1.0
+TAB_C_7 -0.01  0.85 0.71 0.29 1.0
+TAB_C_8 -0.03  0.83 0.65 0.35 1.0
+TAB_C_9 -0.10  0.93 0.76 0.24 1.0
+
+                       PA2  PA1
+SS loadings           5.09 4.53
+Proportion Var        0.28 0.25
+Cumulative Var        0.28 0.53
+Proportion Explained  0.53 0.47
+Cumulative Proportion 0.53 1.00
+
+ With factor correlations of 
+     PA2  PA1
+PA2 1.00 0.61
+PA1 0.61 1.00
+
+Mean item complexity =  1.1
+Test of the hypothesis that 2 factors are sufficient.
+
+The degrees of freedom for the null model are  153  and the objective function was  14.23 with Chi Square of  4056.84
+The degrees of freedom for the model are 118  and the objective function was  4.14 
+
+The root mean square of the residuals (RMSR) is  0.09 
+The df corrected root mean square of the residuals is  0.1 
+
+The harmonic number of observations is  291 with the empirical chi square  677.74  with prob <  1.9e-79 
+The total number of observations was  293  with Likelihood Chi Square =  1175.22  with prob <  1.2e-173 
+
+Tucker Lewis Index of factoring reliability =  0.647
+RMSEA index =  0.178  and the 90 % confidence intervals are  0.166 0.184
+BIC =  504.96
+Fit based upon off diagonal values = 0.96
+Measures of factor score adequacy             
+                                                   PA2  PA1
+Correlation of (regression) scores with factors   0.95 0.97
+Multiple R square of scores with factors          0.91 0.93
+Minimum correlation of possible factor scores     0.82 0.87
+
+ Coefficients and bootstrapped confidence intervals 
+          low   PA2 upper   low   PA1 upper
+TAB_S_1  0.43  0.64  0.80  0.08  0.22  0.44
+TAB_S_2  0.27  0.59  0.84 -0.12  0.12  0.46
+TAB_S_3  0.41  0.63  0.83  0.06  0.25  0.50
+TAB_S_4  0.34  0.64  0.83 -0.35 -0.07  0.28
+TAB_S_5  0.37  0.64  0.87 -0.44 -0.15  0.16
+TAB_S_6  0.63  0.82  0.90 -0.23 -0.08  0.16
+TAB_S_7  0.09  0.20  0.35  0.56  0.69  0.86
+TAB_S_8  0.07  0.15  0.30  0.61  0.73  0.86
+TAB_S_9 -0.02  0.07  0.24  0.63  0.75  0.88
+TAB_C_1  0.24  0.45  0.62  0.16  0.33  0.57
+TAB_C_2  0.21  0.54  0.80 -0.16  0.09  0.44
+TAB_C_3  0.31  0.54  0.77  0.00  0.23  0.49
+TAB_C_4  0.32  0.60  0.79 -0.29 -0.04  0.29
+TAB_C_5  0.30  0.57  0.80 -0.35 -0.04  0.28
+TAB_C_6  0.54  0.75  0.84 -0.22 -0.06  0.19
+TAB_C_7 -0.11 -0.01  0.19  0.75  0.85  0.93
+TAB_C_8 -0.16 -0.03  0.16  0.72  0.83  0.94
+TAB_C_9 -0.20 -0.10  0.13  0.81  0.93  1.00
+
+ Interfactor correlations and bootstrapped confidence intervals 
+        lower estimate upper
+PA2-PA1  0.45     0.61  0.67
+
+
+
+
+### 3 Factor EFA Coworker & Supervisor ###
+
+Factor Analysis with confidence intervals using method = fa(r = ITabBoth, nfactors = 3, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Factor Analysis using method =  pa
+Call: fa(r = ITabBoth, nfactors = 3, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Standardized loadings (pattern matrix) based upon correlation matrix
+          PA1   PA2   PA3   h2   u2 com
+TAB_S_1  0.24  0.57  0.13 0.63 0.37 1.5
+TAB_S_2  0.06  0.76 -0.09 0.58 0.42 1.0
+TAB_S_3  0.29  0.50  0.21 0.65 0.35 2.0
+TAB_S_4 -0.10  0.70  0.01 0.43 0.57 1.0
+TAB_S_5 -0.07  0.06  0.84 0.70 0.30 1.0
+TAB_S_6  0.01  0.52  0.39 0.58 0.42 1.8
+TAB_S_7  0.67  0.28 -0.06 0.70 0.30 1.4
+TAB_S_8  0.71  0.20 -0.03 0.68 0.32 1.2
+TAB_S_9  0.73  0.14 -0.06 0.64 0.36 1.1
+TAB_C_1  0.34  0.43  0.07 0.49 0.51 1.9
+TAB_C_2  0.04  0.68 -0.07 0.46 0.54 1.0
+TAB_C_3  0.26  0.41  0.20 0.49 0.51 2.2
+TAB_C_4 -0.06  0.67  0.00 0.40 0.60 1.0
+TAB_C_5  0.07 -0.06  0.89 0.79 0.21 1.0
+TAB_C_6  0.01  0.50  0.32 0.49 0.51 1.7
+TAB_C_7  0.87 -0.06  0.06 0.74 0.26 1.0
+TAB_C_8  0.83 -0.04  0.02 0.66 0.34 1.0
+TAB_C_9  0.94 -0.12  0.03 0.78 0.22 1.0
+
+                       PA1  PA2  PA3
+SS loadings           4.62 4.16 2.12
+Proportion Var        0.26 0.23 0.12
+Cumulative Var        0.26 0.49 0.61
+Proportion Explained  0.42 0.38 0.19
+Cumulative Proportion 0.42 0.81 1.00
+
+ With factor correlations of 
+     PA1  PA2  PA3
+PA1 1.00 0.55 0.35
+PA2 0.55 1.00 0.38
+PA3 0.35 0.38 1.00
+
+Mean item complexity =  1.3
+Test of the hypothesis that 3 factors are sufficient.
+
+The degrees of freedom for the null model are  153  and the objective function was  14.23 with Chi Square of  4056.84
+The degrees of freedom for the model are 102  and the objective function was  3.1 
+
+The root mean square of the residuals (RMSR) is  0.07 
+The df corrected root mean square of the residuals is  0.08 
+
+The harmonic number of observations is  291 with the empirical chi square  388.69  with prob <  4.7e-35 
+The total number of observations was  293  with Likelihood Chi Square =  877.23  with prob <  1.5e-123 
+
+Tucker Lewis Index of factoring reliability =  0.7
+RMSEA index =  0.164  and the 90 % confidence intervals are  0.152 0.171
+BIC =  297.86
+Fit based upon off diagonal values = 0.98
+Measures of factor score adequacy             
+                                                   PA1  PA2  PA3
+Correlation of (regression) scores with factors   0.97 0.94 0.94
+Multiple R square of scores with factors          0.94 0.89 0.88
+Minimum correlation of possible factor scores     0.87 0.78 0.75
+
+ Coefficients and bootstrapped confidence intervals 
+          low   PA1 upper   low   PA2 upper   low   PA3 upper
+TAB_S_1  0.14  0.24  0.47 -0.35  0.57  1.50 -0.64  0.13  1.17
+TAB_S_2 -0.10  0.06  0.34 -0.11  0.76  1.55 -0.85 -0.09  0.93
+TAB_S_3  0.15  0.29  0.51 -0.36  0.50  1.41 -0.49  0.21  1.17
+TAB_S_4 -0.34 -0.10  0.11 -0.02  0.70  1.54 -0.99  0.01  1.21
+TAB_S_5 -0.22 -0.07  0.05 -0.75  0.06  1.16  0.15  0.84  1.64
+TAB_S_6 -0.11  0.01  0.16 -0.51  0.52  1.71 -0.67  0.39  1.75
+TAB_S_7  0.54  0.67  0.89 -0.03  0.28  0.63 -0.29 -0.06  0.19
+TAB_S_8  0.57  0.71  0.92  0.01  0.20  0.44 -0.21 -0.03  0.13
+TAB_S_9  0.59  0.73  0.92 -0.09  0.14  0.45 -0.29 -0.06  0.15
+TAB_C_1  0.18  0.34  0.56 -0.24  0.43  1.14 -0.47  0.07  0.78
+TAB_C_2 -0.15  0.04  0.34 -0.17  0.68  1.47 -0.80 -0.07  0.91
+TAB_C_3  0.10  0.26  0.50 -0.34  0.41  1.21 -0.37  0.20  1.02
+TAB_C_4 -0.27 -0.06  0.14 -0.05  0.67  1.48 -0.97  0.00  1.16
+TAB_C_5 -0.08  0.07  0.17 -0.75 -0.06  0.99  0.28  0.89  1.52
+TAB_C_6 -0.14  0.01  0.18 -0.37  0.50  1.51 -0.59  0.32  1.51
+TAB_C_7  0.73  0.87  1.01 -0.14 -0.06  0.14 -0.23  0.06  0.28
+TAB_C_8  0.67  0.83  1.00 -0.17 -0.04  0.20 -0.33  0.02  0.28
+TAB_C_9  0.79  0.94  1.08 -0.21 -0.12  0.11 -0.33  0.03  0.29
+
+ Interfactor correlations and bootstrapped confidence intervals 
+        lower estimate upper
+PA1-PA2  0.36     0.55  0.63
+PA1-PA3  0.22     0.35  0.52
+PA2-PA3  0.19     0.38  0.51
+
+
+
+### 2 Factor EFA Coworker Only ###
+
+Factor Analysis with confidence intervals using method = fa(r = ITab_Cowork, nfactors = 2, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Factor Analysis using method =  pa
+Call: fa(r = ITab_Cowork, nfactors = 2, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Standardized loadings (pattern matrix) based upon correlation matrix
+          PA2   PA1   h2   u2 com
+TAB_C_1  0.70  0.10 0.59 0.41 1.0
+TAB_C_2  0.67 -0.08 0.39 0.61 1.0
+TAB_C_3  0.75  0.04 0.60 0.40 1.0
+TAB_C_4  0.51 -0.03 0.25 0.75 1.0
+TAB_C_5  0.41  0.09 0.22 0.78 1.1
+TAB_C_6  0.67 -0.06 0.40 0.60 1.0
+TAB_C_7  0.07  0.82 0.75 0.25 1.0
+TAB_C_8  0.04  0.84 0.75 0.25 1.0
+TAB_C_9 -0.06  0.97 0.87 0.13 1.0
+
+                       PA2  PA1
+SS loadings           2.44 2.38
+Proportion Var        0.27 0.26
+Cumulative Var        0.27 0.54
+Proportion Explained  0.51 0.49
+Cumulative Proportion 0.51 1.00
+
+ With factor correlations of 
+     PA2  PA1
+PA2 1.00 0.62
+PA1 0.62 1.00
+
+Mean item complexity =  1
+Test of the hypothesis that 2 factors are sufficient.
+
+The degrees of freedom for the null model are  36  and the objective function was  4.41 with Chi Square of  1271.29
+The degrees of freedom for the model are 19  and the objective function was  0.25 
+
+The root mean square of the residuals (RMSR) is  0.05 
+The df corrected root mean square of the residuals is  0.07 
+
+The harmonic number of observations is  292 with the empirical chi square  51.24  with prob <  8.6e-05 
+The total number of observations was  293  with Likelihood Chi Square =  72.34  with prob <  3.7e-08 
+
+Tucker Lewis Index of factoring reliability =  0.918
+RMSEA index =  0.099  and the 90 % confidence intervals are  0.075 0.123
+BIC =  -35.58
+Fit based upon off diagonal values = 0.99
+Measures of factor score adequacy             
+                                                   PA2  PA1
+Correlation of (regression) scores with factors   0.92 0.96
+Multiple R square of scores with factors          0.84 0.93
+Minimum correlation of possible factor scores     0.68 0.86
+
+ Coefficients and bootstrapped confidence intervals 
+          low   PA2 upper   low   PA1 upper
+TAB_C_1  0.53  0.70  0.84 -0.05  0.10  0.27
+TAB_C_2  0.48  0.67  0.83 -0.24 -0.08  0.10
+TAB_C_3  0.57  0.75  0.87 -0.09  0.04  0.22
+TAB_C_4  0.31  0.51  0.69 -0.21 -0.03  0.19
+TAB_C_5  0.24  0.41  0.57 -0.08  0.09  0.25
+TAB_C_6  0.47  0.67  0.85 -0.23 -0.06  0.15
+TAB_C_7 -0.01  0.07  0.18  0.71  0.82  0.92
+TAB_C_8 -0.05  0.04  0.16  0.71  0.84  0.96
+TAB_C_9 -0.12 -0.06  0.05  0.89  0.97  1.02
+
+ Interfactor correlations and bootstrapped confidence intervals 
+        lower estimate upper
+PA2-PA1  0.48     0.62  0.68
+
+
+
+
+### 3 Factor EFA Coworker Only ###
+
+
+Factor Analysis with confidence intervals using method = fa(r = ITab_Cowork, nfactors = 3, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Factor Analysis using method =  pa
+Call: fa(r = ITab_Cowork, nfactors = 3, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+
+ Warning: A Heywood case was detected. 
+Standardized loadings (pattern matrix) based upon correlation matrix
+          PA1   PA3   PA2   h2    u2 com
+TAB_C_1  0.10  0.73  0.02 0.64  0.36 1.0
+TAB_C_2 -0.10  0.76 -0.03 0.47  0.53 1.0
+TAB_C_3  0.06  0.73  0.05 0.63  0.37 1.0
+TAB_C_4  0.05  0.22  0.31 0.25  0.75 1.9
+TAB_C_5  0.16  0.15  0.27 0.22  0.78 2.3
+TAB_C_6 -0.01  0.00  1.01 1.02 -0.02 1.0
+TAB_C_7  0.81  0.10 -0.01 0.75  0.25 1.0
+TAB_C_8  0.84  0.03  0.01 0.74  0.26 1.0
+TAB_C_9  0.97 -0.06  0.00 0.88  0.12 1.0
+
+                       PA1  PA3  PA2
+SS loadings           2.44 1.86 1.29
+Proportion Var        0.27 0.21 0.14
+Cumulative Var        0.27 0.48 0.62
+Proportion Explained  0.44 0.33 0.23
+Cumulative Proportion 0.44 0.77 1.00
+
+ With factor correlations of 
+     PA1  PA3  PA2
+PA1 1.00 0.59 0.36
+PA3 0.59 1.00 0.52
+PA2 0.36 0.52 1.00
+
+Mean item complexity =  1.3
+Test of the hypothesis that 3 factors are sufficient.
+
+The degrees of freedom for the null model are  36  and the objective function was  4.41 with Chi Square of  1271.29
+The degrees of freedom for the model are 12  and the objective function was  0.09 
+
+The root mean square of the residuals (RMSR) is  0.03 
+The df corrected root mean square of the residuals is  0.05 
+
+The harmonic number of observations is  292 with the empirical chi square  14.65  with prob <  0.26 
+The total number of observations was  293  with Likelihood Chi Square =  26.24  with prob <  0.0099 
+
+Tucker Lewis Index of factoring reliability =  0.965
+RMSEA index =  0.065  and the 90 % confidence intervals are  0.03 0.097
+BIC =  -41.92
+Fit based upon off diagonal values = 1
+ Coefficients and bootstrapped confidence intervals 
+          low   PA1 upper   low   PA3 upper   low   PA2 upper
+TAB_C_1 -0.01  0.10  0.22  0.44  0.73  1.09 -0.26  0.02  0.59
+TAB_C_2 -0.20 -0.10  0.04  0.54  0.76  0.95 -0.44 -0.03  0.69
+TAB_C_3 -0.06  0.06  0.19  0.38  0.73  1.18 -0.21  0.05  0.63
+TAB_C_4 -0.09  0.05  0.17 -0.05  0.22  0.51 -0.09  0.31  1.18
+TAB_C_5  0.00  0.16  0.28 -0.17  0.15  0.60  0.03  0.27  0.65
+TAB_C_6 -0.10 -0.01  0.10 -0.32  0.00  0.82  0.44  1.01  1.20
+TAB_C_7  0.72  0.81  0.91  0.00  0.10  0.23 -0.12 -0.01  0.10
+TAB_C_8  0.75  0.84  0.95 -0.07  0.03  0.15 -0.14  0.01  0.17
+TAB_C_9  0.91  0.97  1.01 -0.14 -0.06  0.05 -0.13  0.00  0.11
+
+ Interfactor correlations and bootstrapped confidence intervals 
+        lower estimate upper
+PA1-PA3  0.43     0.59  0.69
+PA1-PA2  0.18     0.36  0.53
+PA3-PA2  0.33     0.52  0.62
+
+
+
+
+### 2 Factor EFA Supervisor only ###
+
+Factor Analysis with confidence intervals using method = fa(r = ITab_Sup, nfactors = 2, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Factor Analysis using method =  pa
+Call: fa(r = ITab_Sup, nfactors = 2, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Standardized loadings (pattern matrix) based upon correlation matrix
+          PA2   PA1   h2   u2 com
+TAB_S_1  0.70  0.16 0.67 0.33 1.1
+TAB_S_2  0.62  0.08 0.46 0.54 1.0
+TAB_S_3  0.70  0.17 0.68 0.32 1.1
+TAB_S_4  0.50  0.06 0.30 0.70 1.0
+TAB_S_5  0.65 -0.21 0.28 0.72 1.2
+TAB_S_6  0.80 -0.09 0.56 0.44 1.0
+TAB_S_7  0.05  0.89 0.85 0.15 1.0
+TAB_S_8  0.07  0.80 0.71 0.29 1.0
+TAB_S_9 -0.04  0.89 0.74 0.26 1.0
+
+                       PA2  PA1
+SS loadings           2.80 2.45
+Proportion Var        0.31 0.27
+Cumulative Var        0.31 0.58
+Proportion Explained  0.53 0.47
+Cumulative Proportion 0.53 1.00
+
+ With factor correlations of 
+     PA2  PA1
+PA2 1.00 0.67
+PA1 0.67 1.00
+
+Mean item complexity =  1.1
+Test of the hypothesis that 2 factors are sufficient.
+
+The degrees of freedom for the null model are  36  and the objective function was  5.22 with Chi Square of  1505.13
+The degrees of freedom for the model are 19  and the objective function was  0.35 
+
+The root mean square of the residuals (RMSR) is  0.05 
+The df corrected root mean square of the residuals is  0.06 
+
+The harmonic number of observations is  291 with the empirical chi square  44.81  with prob <  0.00073 
+The total number of observations was  293  with Likelihood Chi Square =  101.06  with prob <  3.4e-13 
+
+Tucker Lewis Index of factoring reliability =  0.894
+RMSEA index =  0.123  and the 90 % confidence intervals are  0.099 0.145
+BIC =  -6.86
+Fit based upon off diagonal values = 0.99
+Measures of factor score adequacy             
+                                                   PA2  PA1
+Correlation of (regression) scores with factors   0.94 0.96
+Multiple R square of scores with factors          0.87 0.92
+Minimum correlation of possible factor scores     0.75 0.84
+
+ Coefficients and bootstrapped confidence intervals 
+          low   PA2 upper   low   PA1 upper
+TAB_S_1  0.49  0.70  0.85  0.04  0.16  0.34
+TAB_S_2  0.35  0.62  0.86 -0.13  0.08  0.34
+TAB_S_3  0.47  0.70  0.89  0.00  0.17  0.38
+TAB_S_4  0.27  0.50  0.69 -0.14  0.06  0.29
+TAB_S_5  0.47  0.65  0.78 -0.37 -0.21 -0.04
+TAB_S_6  0.60  0.80  0.93 -0.30 -0.09  0.16
+TAB_S_7 -0.01  0.05  0.16  0.80  0.89  0.96
+TAB_S_8 -0.02  0.07  0.20  0.66  0.80  0.93
+TAB_S_9 -0.13 -0.04  0.09  0.80  0.89  0.98
+
+ Interfactor correlations and bootstrapped confidence intervals 
+        lower estimate upper
+PA2-PA1  0.53     0.67  0.75
+
+
+
+
+
+### 3 Factor EFA Supervisor only ###
+
+Factor Analysis with confidence intervals using method = fa(r = ITab_Sup, nfactors = 3, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+Factor Analysis using method =  pa
+Call: fa(r = ITab_Sup, nfactors = 3, n.iter = 100, rotate = "oblimin", 
+    fm = "pa")
+
+ Warning: A Heywood case was detected. 
+Standardized loadings (pattern matrix) based upon correlation matrix
+          PA1   PA3   PA2   h2    u2 com
+TAB_S_1  0.11  0.71  0.08 0.69  0.31 1.1
+TAB_S_2 -0.08  0.86 -0.07 0.60  0.40 1.0
+TAB_S_3  0.12  0.72  0.06 0.71  0.29 1.1
+TAB_S_4  0.12  0.26  0.25 0.29  0.71 2.4
+TAB_S_5 -0.11  0.33  0.30 0.24  0.76 2.2
+TAB_S_6  0.00  0.00  1.10 1.21 -0.21 1.0
+TAB_S_7  0.90  0.02  0.02 0.85  0.15 1.0
+TAB_S_8  0.84 -0.02  0.06 0.73  0.27 1.0
+TAB_S_9  0.87  0.03 -0.07 0.74  0.26 1.0
+
+                       PA1  PA3  PA2
+SS loadings           2.43 2.14 1.50
+Proportion Var        0.27 0.24 0.17
+Cumulative Var        0.27 0.51 0.67
+Proportion Explained  0.40 0.35 0.25
+Cumulative Proportion 0.40 0.75 1.00
+
+ With factor correlations of 
+     PA1  PA3  PA2
+PA1 1.00 0.69 0.43
+PA3 0.69 1.00 0.54
+PA2 0.43 0.54 1.00
+
+Mean item complexity =  1.3
+Test of the hypothesis that 3 factors are sufficient.
+
+The degrees of freedom for the null model are  36  and the objective function was  5.22 with Chi Square of  1505.13
+The degrees of freedom for the model are 12  and the objective function was  0.12 
+
+The root mean square of the residuals (RMSR) is  0.03 
+The df corrected root mean square of the residuals is  0.04 
+
+The harmonic number of observations is  291 with the empirical chi square  13.74  with prob <  0.32 
+The total number of observations was  293  with Likelihood Chi Square =  34.09  with prob <  0.00065 
+
+Tucker Lewis Index of factoring reliability =  0.955
+RMSEA index =  0.081  and the 90 % confidence intervals are  0.049 0.111
+BIC =  -34.07
+Fit based upon off diagonal values = 1
+ Coefficients and bootstrapped confidence intervals 
+          low   PA1 upper   low   PA3 upper   low   PA2 upper
+TAB_S_1 -0.02  0.11  0.32  0.17  0.71  1.26 -0.32  0.08  0.82
+TAB_S_2 -0.25 -0.08  0.11  0.58  0.86  1.22 -0.69 -0.07  0.77
+TAB_S_3 -0.02  0.12  0.33  0.11  0.72  1.37 -0.40  0.06  0.90
+TAB_S_4 -0.07  0.12  0.32 -0.09  0.26  0.65 -0.30  0.25  1.10
+TAB_S_5 -0.30 -0.11  0.04 -0.24  0.33  1.00 -0.08  0.30  1.09
+TAB_S_6 -0.13  0.00  0.10 -0.48  0.00  1.00  0.62  1.10  1.37
+TAB_S_7  0.80  0.90  0.99 -0.09  0.02  0.23 -0.13  0.02  0.14
+TAB_S_8  0.73  0.84  0.94 -0.15 -0.02  0.19 -0.10  0.06  0.22
+TAB_S_9  0.79  0.87  0.96 -0.11  0.03  0.20 -0.24 -0.07  0.07
+
+ Interfactor correlations and bootstrapped confidence intervals 
+        lower estimate upper
+PA1-PA3  0.42     0.69  0.78
+PA1-PA2  0.30     0.43  0.62
+PA3-PA2  0.37     0.54  0.64

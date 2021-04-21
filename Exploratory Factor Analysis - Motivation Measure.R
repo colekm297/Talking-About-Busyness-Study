@@ -8,7 +8,7 @@ library(GPArotation)
 ### Read in data
 ### --- 
 
-EC <- (read_sav("E&C_Thesis_4-30_cleaned_renamed_scalescreated.sav"))
+EC <- (read_sav("E&C_Thesis_8-03_outliers_removed.sav"))
 
 ### ---
 ### Check Data
